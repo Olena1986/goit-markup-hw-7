@@ -2,11 +2,80 @@
   .container {
     max-width: 768px;
   }
+  /* ----------------Header------------- */
+
+  /* -----------------Hero-------------- */
   .hero {
     padding-bottom: 108px;
   }
   .hero-title {
     margin-bottom: 40px;
     font-size: 56px;
+  }
+  /* --------------Our advantages----------- */
+  .advantages-item {
+    width: 356px;
+  }
+  .section-advantages {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  /* -----------------Works------------------- */
+  .works {
+    display: none;
+  }
+  /* ------------------Our Team--------------- */
+  .team-card {
+    width: auto;
+  }
+  .team-bc-color > .container {
+    padding-top: 96px;
+    padding-left: 108px;
+  }
+  /* ----------------Customers------------- */
+  .customer-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  /* --------------------Footer------------------ */
+  .footer > .container {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+  .footer {
+    text-align: left;
+  }
+  .webstudio-blocks {
+    justify-content: start;
+    gap: 24px;
+    padding-left: 108px;
+  }
+  .logo-footer .logo-part-footer {
+    text-align: left;
+  }
+  .footer-form {
+    flex-direction: row;
+    align-items: baseline;
+    margin-left: 0 auto;
+  }
+  .footer-form-input {
+    width: 264px;
+  }
+  /* --------------------------Backdrop----------------- */
+  .modal {
+    width: 408px;
+    min-height: 586px;
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-tablet@2x-min.jpg);
   }
 }

@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --primary-text-color: #434455;
   --main-heading-color: #ffffff;
   --secondary-text-color: #2e2f42;
@@ -28,7 +28,7 @@
 
   --cards: 3;
   --gap: 24px;
-}
+} */
 
 /* -------------------Body--------------------- */
 
@@ -41,7 +41,7 @@
 } */
 
 /* --------------------Reset-------------------- */
-h1,
+/* h1,
 h2,
 h3,
 p {
@@ -58,7 +58,7 @@ img {
   display: block;
   width: 100%;
   height: auto;
-}
+} */
 
 /* --------------------Container---------------- */
 
@@ -70,10 +70,10 @@ img {
   outline: 2px solid red;
 } */
 /* -------------------Basic--------------------- */
-.section {
+/* .section {
   padding-top: 120px;
   padding-bottom: 120px;
-}
+} */
 /* --------------------Button-------------------- */
 /* .button {
   border: none;
@@ -302,7 +302,7 @@ img {
   line-height: 1.1;
   text-align: center;
 } */
-
+/* 
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -315,9 +315,9 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /* -----------------------------Icons advantages------------------------ */
-.section-advantages {
+/* .section-advantages {
   display: flex;
   gap: 24px;
 }
@@ -333,19 +333,19 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
+} */
 
 /* ------------------Works------------------- */
-.works {
+/* .works {
   padding-bottom: 120px;
 }
 .works-list {
   display: flex;
   gap: var(--gap);
-}
+} */
 /* -------------------Teams------------------- */
 /* -----------------Icons teams--------------- */
-.teams-soc-list {
+/* .teams-soc-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -393,8 +393,8 @@ img {
 .team-wrap {
   padding: 32px 0;
   text-align: center;
-}
-.section-title {
+} */
+/* .section-title {
   margin-bottom: 72px;
   text-align: center;
   color: var(--secondary-text-color);
@@ -413,10 +413,10 @@ img {
 }
 .section-discription {
   color: var(--primary-text-color);
-}
+} */
 /* -----------------------Customers----------------- */
 
-.customers-list {
+/* .customers-list {
   display: flex;
   justify-content: space-between;
   gap: 24px;
@@ -459,11 +459,11 @@ img {
 .customers-link:focus .customers-icon {
   fill: var(--hover-current-color);
   outline: none;
-}
+} */
 
 /* ----------------------Footer--------------------- */
 
-.footer {
+/* .footer {
   padding-top: 100px;
   padding-bottom: 100px;
   background-color: var(--secondary-bc-color);
@@ -570,9 +570,9 @@ img {
 }
 .footer-form-icon {
   margin-left: 16px;
-}
+} */
 /* ----------------------------Backdrop----------------------- */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   background-color: rgba(0, 0, 0, 0.05);
@@ -777,4 +777,4 @@ img {
 .submit-modal-btn:hover,
 .submit-modal-btn:focus {
   background-color: var(--hover-current-color);
-}
+} */
