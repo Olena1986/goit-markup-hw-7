@@ -1,25 +1,6 @@
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 768px),
   screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 768px) {
-  .container {
-    width: 1158px;
-  }
-
-  .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-  }
-
-  .section-discription {
-    font-weight: 400;
-    color: var(--primary-text-color);
-  }
-  /* --------------Header------------- */
-  .auth-nav {
-    display: flex;
-    gap: 40px;
-  }
-  /* ----------------------Hero---------------------- */
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -30,12 +11,39 @@
       ),
       url(../images/hero-desktop@2x-min.jpg);
   }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1158px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  /* --------------Header------------- */
+  .auth-nav {
+    display: flex;
+    gap: 40px;
+  }
+  .auth-nav .link {
+    font-weight: 400;
+    font-size: 16px;
+  }
+  /* ----------------------Hero---------------------- */
+
   .hero-title {
     margin-bottom: 48px;
   }
   /* --------------------Our advantages------------------ */
+  .advantages-item .section-discription {
+    font-weight: 400;
+    color: var(--primary-text-color);
+  }
   .section-advantages {
     display: flex;
+    flex-wrap: nowrap;
     gap: 24px;
   }
   .advantages-item {
@@ -75,6 +83,7 @@
   .team-bc-color > .container {
     padding: 0;
   }
+
   /* --------------------Customers---------------- */
   .customers-container {
     padding-top: 0;
@@ -153,7 +162,16 @@
     border: 1px solid var(--header-border-color);
     border-top: none;
   }
+  .portfolio-card .section-subtitle {
+    text-align: left;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
   /* -------------Portfolio Cards-top-text--------- */
+  .portfolio-card-item {
+    width: 360px;
+  }
   .portfolio-top-text {
     position: relative;
     overflow: hidden;
@@ -180,6 +198,27 @@
     color: var(--accent-color);
     background-color: var(--logo-part-color);
   }
+  .button.primary:hover, .button.primary:focus {
+    color: var(--main-heading-color);
+    background-color: var(--hover-current-color);
+
+  }
+  .portfolio-link {
+  text-decoration: none;
+  display: block;
+  height: 100%;
+  width: 100%;
+
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.portfolio-link:hover {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.portfolio-link:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+
   /* ----------------Form-modal-backdrop---------------- */
 
   /* ----------------------------Backdrop----------------------- */
