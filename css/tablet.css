@@ -110,7 +110,8 @@
   .section-advantages {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    flex-direction: row;
+    gap: 72px 24px;
   }
   .advantages-item .section-subtitle {
     text-align: left;
@@ -131,9 +132,12 @@
     padding-top: 96px;
     padding-left: 108px;
   }
+  .teams-cards {
+    gap: 64px 24px;
+  }
   /* ----------------Customers------------- */
   .customers-list {
-    gap: 24px;
+    gap: 72px 24px;
   }
   .customers-items {
     width: 168px;

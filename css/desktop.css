@@ -90,6 +90,7 @@
   /* --------------------Our team--------------- */
   .teams-cards {
     flex-wrap: nowrap;
+    gap: 24px;
   }
   .team-card {
     text-align: center;
