@@ -123,8 +123,15 @@ body {
 }
 /* --------------Menu-mob-------------- */
 .mob-menu-list {
-  padding-bottom: 284px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
+.mob-menu-bottom {
+  display: flex;
+  flex-direction: column;
+}
+
 .mob-menu-list .link.current {
   color: var(--hover-current-color);
 }
@@ -133,7 +140,6 @@ body {
   font-weight: 700;
   text-decoration: none;
   display: block;
-  padding: 24px 0;
   font-size: 36px;
   line-height: 1.1;
   color: #2e2f42;
@@ -167,6 +173,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding: 80px 40px;
 }
 .mob-menu-auth-nav > .mob-mail-link {
   margin-top: 40px;
@@ -179,9 +186,7 @@ body {
   height: 100%;
   background-color: #ffffff;
 
-  padding: 80px 40px;
   display: flex;
-  flex-direction: column;
   overflow: auto;
 }
 .menu-open-btn {
@@ -228,9 +233,6 @@ body {
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
-}
-.mob-menu-bottom {
-  margin-top: auto;
 }
 
 .mob-soc-list {
@@ -436,7 +438,7 @@ body {
 }
 
 .customers-items {
-  /* flex-basis: calc((100% - 16px) / 2); */
+  flex-basis: calc((100% - 16px) / 2);
   height: 88px;
 }
 
@@ -815,6 +817,7 @@ body {
     width: 396px;
   }
   .modal {
-    max-width: 479px;
+    width: 392px;
+    height: 586px;
   }
 }

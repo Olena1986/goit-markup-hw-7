@@ -19,6 +19,9 @@
     text-align: center;
   }
   /* ----------------Header------------- */
+  .header {
+    padding-bottom: 10px;
+  }
 
   .header-navigation {
     display: flex;
@@ -109,12 +112,10 @@
     flex-wrap: wrap;
     gap: 24px;
   }
-  .section-advantages .section-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
+  .advantages-item .section-subtitle {
     text-align: left;
   }
+
   /* -----------------Works------------------- */
   .works {
     display: none;
@@ -123,6 +124,9 @@
   /* .team-card {
     flex-basis: calc((100% - 24px) / 3);
   } */
+  .team-card {
+    margin: 0;
+  }
   .team-bc-color > .container {
     padding-top: 96px;
     padding-left: 108px;
@@ -133,7 +137,7 @@
   }
   .customers-items {
     width: 168px;
-    /* flex-basis: calc((100% - 24px) / 3); */
+    flex-basis: auto;
   }
   /* --------------------Footer------------------ */
 

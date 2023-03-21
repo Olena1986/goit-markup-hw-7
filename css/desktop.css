@@ -1,6 +1,7 @@
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) and (min-width: 768px),
   screen and (min-width: 1200px) and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 768px) {
+  screen and (min-width: 1200px) and (min-resolution: 2dppx) and (min-width: 768px)
+   {
   .hero {
     padding-top: 188px;
     padding-bottom: 188px;
@@ -23,6 +24,9 @@
   }
 
   /* --------------Header------------- */
+  .header {
+    padding-bottom: 24px;
+  }
   .auth-nav {
     display: flex;
     gap: 40px;
@@ -32,11 +36,21 @@
     font-size: 16px;
   }
   /* ----------------------Hero---------------------- */
+  .hero {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding-top: 188px;
+  padding-bottom: 188px;}
 
   .hero-title {
     margin-bottom: 48px;
   }
   /* --------------------Our advantages------------------ */
+  .advantages-item .section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  }
   .advantages-item .section-discription {
     font-weight: 400;
     color: var(--primary-text-color);
@@ -112,10 +126,11 @@
   }
   .footer-subscribe {
     margin-top: 0px;
-    margin-left: 120px;
+    
   }
   .footer-social {
-    margin-left: 80px;
+    margin-left: 120px;
+    margin-right: 80px;
   }
   .footer-logo-wrap {
     width: 264px;
@@ -217,7 +232,7 @@
 }
 .portfolio-link:focus {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+    0px 2px 2px rgba(0, 0, 0, 0.12);}
 
   /* ----------------Form-modal-backdrop---------------- */
 
@@ -367,4 +382,5 @@
   .submit-modal-btn:focus {
     background-color: var(--hover-current-color);
   }
+}
 }
